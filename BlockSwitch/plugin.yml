@@ -1,0 +1,14 @@
+name: BlockSwitch
+main: org.ultimatehg.blockswitch
+version: 2.1
+api-version: 1.14
+commands:
+ startblockswitch:
+  description: /startblockswitch [username] [username]
+  aliases: [startbs]
+  permission: startblockswitch.start
+  usage: /startblockswitch [username] [username]
+permissions:
+ startblockswitch.*:
+  description: gives perms to blockswitch
+  default: op

@@ -1,0 +1,19 @@
+name: DivineIntervention
+main: org.ultimatehg.DivineIntervention
+version: 1
+api-version: 1.14
+commands:
+ startdivineintervention:
+  description: Starts divine intervention.
+  aliases: [startdi]
+  permission: di.start
+  usage:
+ stopdivineintervention:
+  description: Stops divine intervention
+  aliases: [stopdi]
+  permission: di.stop
+  usage:
+permissions:
+ di.*:
+  description: gives perms to divine intervention
+  default: op

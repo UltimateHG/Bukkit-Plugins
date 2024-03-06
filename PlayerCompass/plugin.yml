@@ -1,0 +1,19 @@
+name: PlayerCompass
+main: org.ultimatehg.playerCompass
+version: 1
+api-version: 1.14
+commands:
+ playercompass:
+  description: /playercompass [username]
+  aliases: [pcompass]
+  permission: playercompass.start
+  usage:
+ delcompass:
+  description: /delcompass
+  aliases: [dcompass]
+  permission: playercompass.stop
+  usage:
+permissions:
+ playercompass.*:
+  description: gives perms to playercompass
+  default: op

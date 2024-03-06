@@ -1,0 +1,19 @@
+name: DeathSwap
+main: org.ultimatehg.DeathSwap
+version: 1
+api-version: 1.14
+commands:
+ deathswap:
+  description: /deathswap [username] [username]
+  aliases: [ds]
+  permission: deathswap.start
+  usage:
+ stopdeathswap:
+  description: /stopdeathswap
+  aliases: [stopds]
+  permission: deathswap.stop
+  usage:
+permissions:
+ deathswap.*:
+  description: gives perms to deathswap
+  default: op

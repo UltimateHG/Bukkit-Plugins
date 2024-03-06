@@ -1,0 +1,19 @@
+name: LaserBlockChange
+main: org.ultimatehg.LaserBlockChange
+version: 1
+api-version: 1.14
+commands:
+ startlbc:
+  description: Starts LBC
+  aliases:
+  permission: lbc.start
+  usage:
+ stoplbc:
+  description: Stops LBC
+  aliases:
+  permission: lbc.stop
+  usage:
+permissions:
+ lbc.*:
+  description: gives perms to lbc
+  default: op
